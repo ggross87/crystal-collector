@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+<body>
+	
+	<div class="flex-container">
+		<header id="header">Crystal  Collector!</header>
+		<div id="top">
+			<div id="top-num"><h1>0</h1></div>
+
+		</div>
+		<div id="middle">
+		<h1>How to play!</h1>
+		<ul>
+		<li><p>Click any of the crystal buttons below to generate a random total score that match the random number generated at the start of the game.</p></li>
+		<li><p>By clicking the button it gives you a random number between 1 and 12 to add to your total score.</p></li>
+		<li><p>If your total is within 10 points of the random number to match then you win. You also win if you match.</p></li>
+		<li><p>Be careful not to total your score above the number to match or you loose!</p></li>
+		</ul>
+		</div>
+		<div id="middle-right">
+			<h1>Wins: 0</h1>
+			<h2>Losses: 0</h2>
+		</div>
+		<div id="button">
+          <div id="button-a" onclick="randomNumber()"><img src="assets/images/image1.jpeg" width="110px" height="90px"></div>
+          <div id="button-b" onclick="randomNumber()"><img src="assets/images/image2.jpeg" width="110px" height="90px"></div>
+          <div id="button-c" onclick="randomNumber()"><img src="assets/images/image3.jpeg" width="110px" height="90px"></div>
+          <div id="button-d" onclick="randomNumber()"><img src="assets/images/image4.jpeg" width="110px" height="90px"></div>
+        </div>
+		<div id="bottom"><h1>0</h1></div>
+		
+
+	</div>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
